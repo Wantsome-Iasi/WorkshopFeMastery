@@ -1,14 +1,40 @@
+.testimonials {
+  padding: 160px 165px;
+}
+.testimonials h2 {
+  text-align: center;
+  color: #A7AAAD;
+  text-transform: uppercase;
+  padding-bottom: 81px;
+}
+
 .clients {
   display: flex;
+  gap: 30px;
+  justify-content: center;
 }
 .clients .client {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  height: 350px;
+}
+.clients .client .client-info-container {
+  text-align: center;
+}
+.clients .client .client-info-container .client-name {
+  font-weight: bold;
+}
+.clients .client .client-info-container .client-title {
+  color: #A7AAAD;
+}
+.clients .client .description {
+  width: 350px;
+  text-align: center;
 }
 
 .avatar {
   width: 72px;
   height: 72px;
-  border: 1px solid red;
 }/*# sourceMappingURL=testimonials.css.map */

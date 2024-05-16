@@ -5,7 +5,7 @@
 .content {
   display: flex;
 
-  > div {
+  > div, article {
     width: 50%;
     height: 600px;
   }
@@ -64,6 +64,11 @@
 
 .egg {
   background-image: $egg;
+  // extend
+}
+
+.glass {
+  background-image: $glass;
   // extend
 }
 

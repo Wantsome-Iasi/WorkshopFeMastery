@@ -24,6 +24,9 @@ body {
   font-weight: bold;
   color: white;
 }
+.navbar .logo:hover {
+  cursor: pointer;
+}
 .navbar .navbar-links {
   display: flex;
   flex-grow: 1;

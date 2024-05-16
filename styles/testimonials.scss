@@ -1,17 +1,57 @@
 @import 'colors';
 
+.testimonials{
+  padding: 160px 165px;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+
+  h2{
+    text-align: center;
+    color: $gray;
+    text-transform: uppercase;
+    padding-bottom: 81px;
+  }
+}
+
+
 .clients {
   display: flex;
+  gap: 30px;
+  // justify-content: space-around;
+  justify-content: center;
+  // width: 1110px;
 
   .client {
     display: flex;
     flex-direction: column;
     align-items: center;
+    // margin-right: 30px;
+    justify-content: space-between;
+    height: 350px;
+
+    .client-info-container{
+      text-align: center;
+
+      .client-name{
+        font-weight: bold;
+      }
+      
+      .client-title{
+        color: $gray;
+      }
+    }
+
+    .description{
+      width: 350px;
+      // padding-top: 58px;
+      // padding-bottom: 69px;
+      text-align: center;
+    }
   }
 }
 
 .avatar {
   width: 72px;
   height: 72px;
-  border: 1px solid $red;
 }

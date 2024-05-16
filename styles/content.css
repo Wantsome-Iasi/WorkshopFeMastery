@@ -11,7 +11,7 @@
 .content {
   display: flex;
 }
-.content > div {
+.content > div, .content article {
   width: 50%;
   height: 600px;
 }
@@ -60,6 +60,10 @@
 
 .egg {
   background-image: url("../assets/egg.jpg");
+}
+
+.glass {
+  background-image: url("../assets/glass.jpg");
 }
 
 .cherries {
