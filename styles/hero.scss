@@ -1,9 +1,11 @@
 @import "reset";
+@import 'colors';
+@import 'images';
 
 .hero {
   width: 100%;
   height: 100%;
-  background-image: url("../assets/hero.png");
+  background-image: $hero;
   background-size: cover;
   background-position: center;
 }
@@ -16,7 +18,7 @@
   .logo {
     font-size: 24px;
     font-weight: bold;
-    color: white;
+    color: $white;
   }
 
   .navbar-links {
@@ -28,12 +30,12 @@
     li {
       a {
         text-decoration: none;
-        color: white;
+        color: $white;
         padding: 12px 24px;
 
         &:hover {
-          background-color: white;
-          color: black;
+          background-color: $white;
+          color: $black;
           border-radius: 24px;
         }
       }
@@ -46,6 +48,6 @@
   text-transform: uppercase;
   font-size: 56px;
   letter-spacing: 8.75px;
-  color: white;
+  color: $white;
   margin-top: 100px;
 }

@@ -1,3 +1,13 @@
+.orange, .cherries {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 110px 100px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
 .content {
   display: flex;
 }
@@ -46,16 +56,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.orange, .cherries {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 0 110px 100px;
-  box-sizing: border-box;
-  text-align: center;
 }
 
 .egg {
