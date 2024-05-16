@@ -1,9 +1,11 @@
 .image-slider {
   height: 447px;
   display: flex;
+  flex-wrap: wrap;
 }
-.image-slider > img {
-  width: 100%;
+.image-slider > div {
+  width: 360px;
+  height: 100%;
 }
 
 .sugar {
