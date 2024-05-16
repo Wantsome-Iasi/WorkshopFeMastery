@@ -33,15 +33,19 @@ body {
   justify-content: flex-end;
   list-style: none;
 }
+.navbar .navbar-links li {
+  padding: 12px 24px;
+}
 .navbar .navbar-links li a {
   text-decoration: none;
   color: white;
-  padding: 12px 24px;
 }
-.navbar .navbar-links li a:hover {
-  background-color: white;
-  color: black;
+.navbar .navbar-links li:hover {
+  background-color: rgba(255, 255, 255, 0.467);
   border-radius: 24px;
+}
+.navbar .navbar-links li:hover a {
+  opacity: 1;
 }
 
 .hero-title {

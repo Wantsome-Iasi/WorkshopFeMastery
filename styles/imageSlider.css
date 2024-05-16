@@ -1,0 +1,23 @@
+.image-slider {
+  height: 447px;
+  display: flex;
+}
+.image-slider > img {
+  width: 100%;
+}
+
+.sugar {
+  background-image: url("../assets/sugar.png");
+}
+
+.milk {
+  background-image: url("../assets/milk.png");
+}
+
+.orangeSmall {
+  background-image: url("../assets/orange_small.png");
+}
+
+.cone {
+  background-image: url("../assets/cone.png");
+}/*# sourceMappingURL=imageSlider.css.map */

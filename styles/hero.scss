@@ -32,15 +32,17 @@
     list-style: none;
 
     li {
+      padding: 12px 24px;
       a {
         text-decoration: none;
         color: $white;
-        padding: 12px 24px;
+      }
+      &:hover {
+        background-color: $lowOpacityWhite;
+        border-radius: 24px;
 
-        &:hover {
-          background-color: $white;
-          color: $black;
-          border-radius: 24px;
+        a {
+          opacity: 1;
         }
       }
     }
